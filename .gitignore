@@ -1,0 +1,80 @@
+# -----------------------
+# PYTHON
+# -----------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# Environment variables / secrets
+*.env
+.env*
+
+# Jupyter Notebooks (if ever created)
+.ipynb_checkpoints/
+
+# -----------------------
+# PYCHARM / IDE FILES
+# -----------------------
+
+# PyCharm project settings
+.idea/
+*.iml
+
+# VSCode (in case user switches IDE)
+.vscode/
+
+# -----------------------
+# OS FILES
+# -----------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -----------------------
+# SELENIUM / DRIVER CACHE
+# -----------------------
+
+# webdriver-manager downloaded drivers
+~/.wdm/
+webdriver_downloads/
+
+# Chrome driver temp data
+chromedriver*
+chromedriver.exe
+
+# -----------------------
+# REPORTS (Optional)
+# -----------------------
+
+# Allure and test reports
+allure-results/
+allure-report/
+reports/
+htmlcov/
+coverage.xml
